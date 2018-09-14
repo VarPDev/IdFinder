@@ -1,7 +1,15 @@
 {
-	"manifest_version": 2,
-	"name": "Id track",
+	"manifest_version": 3,
+	"name": "Id Finder",
 	"version": "0.1",
+	
+	"short_name": "Id Finder",
+	
+	"default_locale": "en",
+	"description": "Can find ids on all page to use for example in Google Tag Manager",
+	
+	"author": "Pasquale De Lucia",
+	"offline_enabled": true,
   
 	"content_scripts": [
 	  {
